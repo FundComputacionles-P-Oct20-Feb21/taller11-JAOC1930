@@ -10,39 +10,39 @@
 10_		obtenerAreaTriangulo()
 11_	De lo contario
 12_	Si num == 3 entonces
+13_		obtenerAreaRectangulo()
 13_	De lo contrario
 14_		Escribir "El numero que escribio es incorrecto"
-15_ 		obtenerAreaRectangulo()
-16_ 	Fin si
-17_ Fin funcion principal
-18_ funcion obtenerAreaCuadrado()
-19_	lado, i[0, n]
-20_	area, i[0, n]
-21_	Escribir "Ingrese el valor de lado"
-22_	Leer lado
-23_	area = lado * lado
-24_	Escribir "El area del cuadro es: " + area
-25_ Fin funcion obtenerAreaCuadrado()
-26_ funcion obtenerAreaTriangulo()
-27_	base, i[0, n]
-28_	altura, i[0, n]
-29_	area, i[0, n]
-30_	Escribir "Ingrese el valor de base"
-31_	Leer base
-32_	Escribir "Ingrese el valor de altura"
-33_	Leer altura
-34_	area = (base * altura)/2
-35_	Escribir "El area del triangulo es: "+ area
-36_ Fin obtenerAreaTriangulo()
-37_ funcion obtenerAreaRectangulo()
-38_	base, i[0, n]
-39_	altura, i[0, n]
-40_	area, i[0, n]
-41_	Escribir "Ingrese el valor de base"
-42_	Leer base
-43_	Escribir "Ingrese el valor de altura"
-44_	Leer altura
-45_ 	area = base * altura
-46_	Escribir "El area del rectangulo es: "+ area
-47_ Fin funcion obtenerAreaRectangulo()
-48_ Fin			
+15_ 	Fin si
+16_ Fin funcion principal
+17_ funcion obtenerAreaCuadrado()
+18_	lado, i[0, n]
+19_	area, i[0, n]
+20_	Escribir "Ingrese el valor de lado"
+21_	Leer lado
+22_	area = lado * lado
+23_	Escribir "El area del cuadro es: " + area
+24_ Fin funcion obtenerAreaCuadrado()
+25_ funcion obtenerAreaTriangulo()
+26_	base, i[0, n]
+27_	altura, i[0, n]
+28_	area, i[0, n]
+29_	Escribir "Ingrese el valor de base"
+30_	Leer base
+31_	Escribir "Ingrese el valor de altura"
+32_	Leer altura
+33_	area = (base * altura)/2
+34_	Escribir "El area del triangulo es: "+ area
+35_ Fin obtenerAreaTriangulo()
+36_ funcion obtenerAreaRectangulo()
+37_	base, i[0, n]
+38_	altura, i[0, n]
+39_	area, i[0, n]
+40_	Escribir "Ingrese el valor de base"
+41_	Leer base
+42_	Escribir "Ingrese el valor de altura"
+43_	Leer altura
+44_ 	area = base * altura
+45_	Escribir "El area del rectangulo es: "+ area
+46_ Fin funcion obtenerAreaRectangulo()
+47_ Fin			
